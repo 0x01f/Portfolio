@@ -26,12 +26,14 @@ body {
 	line-height: 45px;
 	font-weight: 400;
 	margin-bottom: 53px;
+	color: #272727;
 }
 
 .header-subtitle {
 	font-size: 250px;
 	line-height: 230px;
 	margin-bottom: 43px;
+	font-weight: 300;
 }
 
 .header-description {
@@ -39,6 +41,7 @@ body {
 	font-size: 32px;
 	line-height: 50px;
 	margin-bottom: 60px;
+	font-weight: 300;
 }
 
 .buy-wrapper {
@@ -55,6 +58,7 @@ body {
 	font-size: 32px;
 	line-height: 82px;
 	text-align: center;
+	font-weight: 300;
 }
 
 .price {
@@ -72,8 +76,8 @@ body {
 	display: block;
 	height: 720px;
 	width: 420px;
-	margin-top: 10px;
-	margin-left: 150px;
+	margin-top: -59px;
+	margin-right: -240px;
 }
 
 .popular-title {
@@ -111,6 +115,7 @@ body {
 	font-size: 32px;
 	line-height: 30px;
 	margin-bottom: 17px;
+	font-weight: 400;
 }
 
 .item-description {
@@ -120,20 +125,12 @@ body {
 	line-height: 50px;
 	margin: 0 auto;
 	margin-bottom: 60px;
+	font-weight: 300;
 }
 
 .product-title {
 	font-size: 32px;
 	line-height: 60px;
-	text-align: center;
-}
-
-.product-description {
-	margin: 0 auto;
-	width: 515px;
-	font-size: 24px;
-	font-weight: 500;
-	line-height: 41px;
 	text-align: center;
 }
 
@@ -143,4 +140,18 @@ body {
 	border: 1px solid #707070;
 	margin: 0 auto;
 	margin-bottom: 49px;
+}
+
+.product-description {
+	margin: 0 auto;
+	width: 515px;
+	font-size: 24px;
+	line-height: 41px;
+	text-align: center;
+	font-weight: 300;
+	padding-bottom: 143px;
+}
+
+.product-description a {
+	color: #BB8B5D;
 }
